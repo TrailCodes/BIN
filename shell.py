@@ -1,8 +1,8 @@
-import FLUX
+import BIN
 
 while True:
     text = input('FLUX > ')
-    result, error = FLUX.run('<stdin>', text)
+    result, error = BIN.run('<stdin>', text)
 
     if error:
         print(error.as_string())
